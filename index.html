@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Management App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(180deg, #2f4f7f, #3a5f95);
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x500');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .hero-title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .hero-subtitle {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+        }
+        .feature {
+            background: #f7f7f7;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: calc(33.33% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .feature-description {
+            font-size: 16px;
+            color: #666;
+        }
+        .call-to-action {
+            background: linear-gradient(180deg, #2f4f7f, #3a5f95);
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .call-to-action:hover {
+            background: linear-gradient(180deg, #3a5f95, #2f4f7f);
+        }
+        @media (max-width: 768px) {
+            .feature {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .feature {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Society Management App</h1>
+    </div>
+    <div class="hero">
+        <div>
+            <h2 class="hero-title">Simplify Society Management</h2>
+            <p class="hero-subtitle">Report maintenance issues, track complaints, and access essential society information in real-time</p>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h3 class="feature-title">Maintenance Issue Reporting</h3>
+            <p class="feature-description">Allows residents to report maintenance issues with photos, descriptions, and location tagging</p>
+        </div>
+        <div class="feature">
+            <h3 class="feature-title">Real-time Complaint Tracking</h3>
+            <p class="feature-description">Enables residents to track the status of their reported issues and receive updates on resolution</p>
+        </div>
+        <div class="feature">
+            <h3 class="feature-title">AI-powered Residential Guide</h3>
+            <p class="feature-description">Provides instant answers to resident queries about society rules, amenities, and procedures using AI-powered chatbot</p>
+        </div>
+        <div class="feature">
+            <h3 class="feature-title">Push Notifications</h3>
+            <p class="feature-description">Sends reminders and updates to residents and admins about maintenance issues, complaint status, and other important society information</p>
+        </div>
+        <div class="feature">
+            <h3 class="feature-title">Integration with Society Management System</h3>
+            <p class="feature-description">Allows seamless integration with existing society management systems for data synchronization and automation</p>
+        </div>
+    </div>
+    <div style="text-align: center; padding: 40px;">
+        <button class="call-to-action">Get Started</button>
+    </div>
+</body>
+</html>
