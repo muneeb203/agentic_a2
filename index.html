@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Management App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(to bottom, #333333, #444444);
+            color: #ffffff;
+            padding: 50px;
+            text-align: center;
+        }
+        .hero-section {
+            background-image: linear-gradient(to bottom, #555555, #666666);
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+        }
+        .features-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .feature {
+            background-color: #f7f7f7;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 20px);
+        }
+        .call-to-action {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .call-to-action:hover {
+            background-color: #3e8e41;
+        }
+        @media only screen and (max-width: 768px) {
+            .feature {
+                width: calc(50% - 20px);
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            .feature {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Society Management App</h1>
+    </div>
+    <div class="hero-section">
+        <h1>Streamline Your Society Management</h1>
+        <p>Report and track maintenance issues, access essential society information, and interact with your community</p>
+    </div>
+    <div class="features-section">
+        <div class="feature">
+            <h2>Complaint Reporting</h2>
+            <p>Residents can report maintenance problems with photos and descriptions</p>
+        </div>
+        <div class="feature">
+            <h2>Real-time Complaint Tracking</h2>
+            <p>Residents can track the status of their complaints in real-time</p>
+        </div>
+        <div class="feature">
+            <h2>AI-powered Residential Guide</h2>
+            <p>Residents can access a comprehensive guide with answers to frequently asked questions about society rules, amenities, and procedures</p>
+        </div>
+        <div class="feature">
+            <h2>Push Notifications</h2>
+            <p>Residents receive push notifications for updates on their complaints and important society announcements</p>
+        </div>
+        <div class="feature">
+            <h2>Society Forum</h2>
+            <p>Residents can interact with each other and discuss society-related topics</p>
+        </div>
+    </div>
+    <div style="text-align: center; margin: 20px;">
+        <button class="call-to-action">Download Now</button>
+    </div>
+</body>
+</html>
