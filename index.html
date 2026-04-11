@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, #2f4f7f, #1a2b3b);
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero-headline {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-subheadline {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.feature {
+  margin: 20px;
+  width: calc(33.33% - 40px);
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  background-color: #2f4f7f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  background-color: #1a2b3b;
+}
+
+@media only screen and (max-width: 768px) {
+  .feature {
+    width: calc(50% - 40px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .feature {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 class="hero-headline">Society Management Made Easy</h1>
+  <p class="hero-subheadline">Report, track, and resolve maintenance issues with our user-friendly mobile app</p>
+</div>
+<div class="features-section">
+  <div class="feature">
+    <h2 class="feature-name">Complaint Reporting</h2>
+    <p class="feature-description">Allows residents to report maintenance issues with photos and descriptions</p>
+  </div>
+  <div class="feature">
+    <h2 class="feature-name">Real-time Tracking</h2>
+    <p class="feature-description">Enables residents to track the status of their complaints in real-time</p>
+  </div>
+  <div class="feature">
+    <h2 class="feature-name">AI-powered Residential Guide</h2>
+    <p class="feature-description">Provides instant answers to residents' queries about society rules, amenities, and procedures</p>
+  </div>
+  <div class="feature">
+    <h2 class="feature-name">Push Notifications</h2>
+    <p class="feature-description">Sends updates to residents about complaint status, society events, and important announcements</p>
+  </div>
+  <div class="feature">
+    <h2 class="feature-name">Society Forum</h2>
+    <p class="feature-description">Allows residents to discuss society-related topics, share information, and collaborate with each other</p>
+  </div>
+</div>
+<div style="text-align: center; padding: 20px;">
+  <button class="call-to-action">Get Started</button>
+</div>
+</body>
+</html>
