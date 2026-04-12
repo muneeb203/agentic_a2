@@ -181,8 +181,3 @@ launchmind/
 - If the branch `agent-landing-page` already exists on GitHub, delete it before running again
 - Groq free tier supports up to 1,500 requests/day — more than enough for testing
 
----
-
-## License
-
-This project is for educational purposes.
