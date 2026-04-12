@@ -1,0 +1,117 @@
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to bottom, #2f4f7f, #3a6070);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #2f4f7f, #3a6070);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.feature {
+  background-color: #f7f7f7;
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  background-color: #2f4f7f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  background-color: #3a6070;
+}
+
+@media only screen and (max-width: 768px) {
+  .feature {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .feature {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Smart Society</h1>
+</header>
+<div class="hero">
+  <h1>Report, Track, and Resolve Maintenance Issues with Ease</h1>
+  <p>Our mobile app provides a convenient and efficient way for residents to report and track maintenance issues, access society information, and receive guidance on rules and procedures.</p>
+</div>
+<div class="features">
+  <div class="feature">
+    <h2>User Registration</h2>
+    <p>Residents can register and create a profile to access the app's features</p>
+  </div>
+  <div class="feature">
+    <h2>Complaint Reporting</h2>
+    <p>Residents can report maintenance issues with details and photos</p>
+  </div>
+  <div class="feature">
+    <h2>Real-time Tracking</h2>
+    <p>Residents can view the status of their reported complaints in real-time</p>
+  </div>
+  <div class="feature">
+    <h2>AI-powered Guide</h2>
+    <p>Residents can access a guide that provides instant answers to questions about society rules, amenities, and procedures</p>
+  </div>
+  <div class="feature">
+    <h2>Push Notifications</h2>
+    <p>Residents receive push notifications for updates on their reported complaints and important society announcements</p>
+  </div>
+</div>
+<button class="call-to-action">Download the App</button>
+</body>
+</html>
