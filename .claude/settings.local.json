@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"C:\\\\Users\\\\Dell\\\\Downloads\\\\LaunchMind_Complete_Guide.docx\" -o /tmp/launchmind_guide.md)",
+      "Read(//tmp/**)",
+      "Bash(python -c ':*)",
+      "Read(//mnt/c/Users/**)",
+      "Bash(dir /b)",
+      "Bash(.venv/Scripts/python.exe -c ':*)"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+anthropic
+groq
+requests
+sendgrid
+python-dotenv
